@@ -1,0 +1,92 @@
+<mxfile host="app.diagrams.net" modified="2024-03-05T10:15:47.082Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="GAvUx9F85jgeIiyl0Uj5" version="24.0.1" type="github">
+  <diagram name="Page-1" id="8_fBbPsP3Ns7VyUYQ3Oy">
+    <mxGraphModel dx="880" dy="1318" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="w6OYGg1Pb13Nru-FwRmb-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="-290" width="440" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="w6OYGg1Pb13Nru-FwRmb-2" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="-277.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w6OYGg1Pb13Nru-FwRmb-3" value="Browser" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="-262.5" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w6OYGg1Pb13Nru-FwRmb-4" value="DNS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-262.5" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w6OYGg1Pb13Nru-FwRmb-5" value="APIGEE PROXY" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="-110" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w6OYGg1Pb13Nru-FwRmb-7" value="GCP/Azure Cloud provider" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w6OYGg1Pb13Nru-FwRmb-9" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="440" y="-110" as="sourcePoint" />
+            <mxPoint x="440" y="-190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w6OYGg1Pb13Nru-FwRmb-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-10" width="440" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="w6OYGg1Pb13Nru-FwRmb-10" value="Natwest System" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="-20" width="790" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="w6OYGg1Pb13Nru-FwRmb-14" value="Micro Service 1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="w6OYGg1Pb13Nru-FwRmb-10">
+          <mxGeometry x="300" y="70" width="90" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="w6OYGg1Pb13Nru-FwRmb-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="w6OYGg1Pb13Nru-FwRmb-10" source="w6OYGg1Pb13Nru-FwRmb-15" target="w6OYGg1Pb13Nru-FwRmb-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w6OYGg1Pb13Nru-FwRmb-15" value="Micro Service 2" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="w6OYGg1Pb13Nru-FwRmb-10">
+          <mxGeometry x="450" y="70" width="90" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="w6OYGg1Pb13Nru-FwRmb-16" value="Micro Service3" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="w6OYGg1Pb13Nru-FwRmb-10">
+          <mxGeometry x="600" y="70" width="90" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="w6OYGg1Pb13Nru-FwRmb-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="w6OYGg1Pb13Nru-FwRmb-10" source="w6OYGg1Pb13Nru-FwRmb-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="124.5" as="sourcePoint" />
+            <mxPoint x="450" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w6OYGg1Pb13Nru-FwRmb-18" value="Label" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="w6OYGg1Pb13Nru-FwRmb-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w6OYGg1Pb13Nru-FwRmb-21" value="TYK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w6OYGg1Pb13Nru-FwRmb-17">
+          <mxGeometry x="0.0333" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w6OYGg1Pb13Nru-FwRmb-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.545;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.011;entryY=0.564;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="w6OYGg1Pb13Nru-FwRmb-10" source="w6OYGg1Pb13Nru-FwRmb-15" target="w6OYGg1Pb13Nru-FwRmb-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="124.5" as="sourcePoint" />
+            <mxPoint x="610" y="124.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w6OYGg1Pb13Nru-FwRmb-20" value="Label" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="w6OYGg1Pb13Nru-FwRmb-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w6OYGg1Pb13Nru-FwRmb-22" value="TYK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w6OYGg1Pb13Nru-FwRmb-19">
+          <mxGeometry x="-0.0173" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w6OYGg1Pb13Nru-FwRmb-23" value="Other network Zone with Tools Like TYK,&amp;nbsp; DB,&amp;nbsp; Web Servers, Splunk" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="w6OYGg1Pb13Nru-FwRmb-10">
+          <mxGeometry x="60" y="30" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="w6OYGg1Pb13Nru-FwRmb-29" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.656;exitY=0.018;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.463;entryY=1.117;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="w6OYGg1Pb13Nru-FwRmb-14" target="w6OYGg1Pb13Nru-FwRmb-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="365" y="10" as="sourcePoint" />
+            <mxPoint x="415" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w6OYGg1Pb13Nru-FwRmb-37" value="&lt;h1&gt;A Simple banking System Contains :&amp;nbsp;&lt;/h1&gt;&lt;p&gt;1. *&lt;b&gt;*Web Frontend and Mobile App&lt;/b&gt;**: The user interfaces through which customers interact with the banking system.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;2. **&lt;b&gt;API Gateway&lt;/b&gt;**: Acts as an entry point for external requests, routing them to the appropriate services. It often includes load balancing for distributing incoming traffic.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;3. **&lt;b&gt;Authentication &amp;amp; Authorization Services&lt;/b&gt;**: Responsible for user authentication, authorization, and securing access to the system.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;4. **&lt;b&gt;Core Banking Services&lt;/b&gt;**: The central business logic and functionality of the banking system, handling transactions, accounts, and other core operations.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;5. **&lt;b&gt;Database&lt;/b&gt;**: Storage for persistent data. It can be a mix of relational and NoSQL databases depending on the specific requirements.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;6. **&lt;b&gt;Storage Services&lt;/b&gt;**: Used for storing objects, blobs, or files, depending on the nature of the data.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;7. **&lt;b&gt;Logging &amp;amp; Monitoring Services&lt;/b&gt;**: Essential for tracking and analyzing system activities, ensuring security, and monitoring performance.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-830" width="610" height="330" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
